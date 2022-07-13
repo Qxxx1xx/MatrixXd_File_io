@@ -127,4 +127,5 @@ int main() {
     Eigen::MatrixXf mmf;
     loadMatrix_from_binaryFile("testSaveMf.dat", mmf);
     std::cout << mmf << std::endl;
+    
 }
